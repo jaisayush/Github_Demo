@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+  <body>
+    <div id="header"></div>
+    <div class="container">
+      <h1 aria-label="Contact Us" tabindex="0">Contact Us</h1>
+      <section class="contact-us">
+        <div class="get-in-touch">
+          <h2 aria-label="Enter the details to get in touch" tabindex="0">
+            GET IN TOUCH
+          </h2>
+          <form action="" target="">
+            <label aria-label="">Name</label><br />
+            <input
+              class="input"
+              type="text"
+              required
+              name="Name"
+              aria-label="Enter Your Name Below"
+            /><br />
+            <label>Email</label>
+            <br />
+            <input
+              class="input"
+              type="text"
+              required
+              name="Email"
+              aria-label="Enter Your Email Below"
+            /><br />
+            <label>Message</label><br />
+            <textarea
+              class="input"
+              rows="4"
+              cols="50"
+              required
+              name="Message"
+              aria-label="Enter Your Message Below"
+            ></textarea
+            ><br />
+            <button type="submit">Send</button><br />
+          </form>
+        </div>
+        <div class="swing-by">
+          <h2>Swing By</h2>
+          <div class="container-iframe">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.81362937858!2d77.72249065!3d12.9837691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11f2b48be039%3A0x14c0494089709b2!2sMindtree%20east%20campus%2C%20Plot%20No.%20150%2C%20EPIP%20Second%20Phase%20KIADB%20Industrial%20Area%20Hoody%20Village%2C%20560066%2C%20EPIP%20Zone%2C%20Whitefield%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1659681564768!5m2!1sen!2sin"
+              class="responsive-iframe"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              aria-label="Google Map"
+            ></iframe>
+          </div>
+
+          <p
+            aria-label="Global village Tech Park, Mysore Rd, RV Vidyaniketan, RVCE"
+            tabindex="0"
+          >
+            Global village Tech Park, Mysore Rd, RV Vidyaniketan, RVCE,
+          </p>
+          <p aria-label="Bengaluru, Karnataka 560059" tabindex="0">
+            Bengaluru, Karnataka 560059
+          </p>
+          <p><a href="tel:+91 9741677737">+91 9741677737</a></p>
+          <p>
+            <a href="mailto:ayush.jaiswal2@mindtree.com"
+              >ayush.jaiswal2@mindtree.com</a
+            >
+          </p>
+        </div>
+      </section>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>

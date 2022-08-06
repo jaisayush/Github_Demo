@@ -1,0 +1,21 @@
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.copyright {
+  padding: 0.5rem;
+}
+
+.socials i {
+  padding: 0.5rem;
+}
+
+i:hover {
+  color: red;
+}
