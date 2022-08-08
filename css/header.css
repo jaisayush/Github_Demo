@@ -8,11 +8,11 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: rgb(255, 166, 0);
 }
 
 .active {
-  color: red;
+  color: rgb(255, 166, 0);
 }
 
 .desktop-nav {
@@ -71,6 +71,7 @@ a:hover {
   clip: rect(1px 1px 1px 1px);
   /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
+  color: white;
 }
 
 /* Extra small devices (phones, 768px and down) */
