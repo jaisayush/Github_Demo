@@ -1,76 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      $(function () {
-        $("#header").load("./header.html");
-        $("#footer").load("./footer.html");
-      });
-    </script>
-    <title>Home</title>
-  </head>
-  <body>
-    <div id="header"></div>
-    <div class="container">
-      <div class="article-area">
-        <img
-          src="./assests/images/github-banner-text.png"
-          alt="Code Sharing between three computer using Github"
-          class="github-banner"
-          tabindex="0"
-        />
-        <section>
-          <h1 tabindex="0">GitHub?</h1>
-          <p tabindex="0">
-            GitHub is a for-profit company that offers a cloud-based Git
-            repository hosting service. Essentially, it makes it a lot easier
-            for individuals and teams to use Git for version control and
-            collaboration.
-          </p>
-          <p tabindex="0">
-            GitHub's interface is user-friendly enough so even novice coders can
-            take advantage of Git. Without GitHub, using Git generally requires
-            a bit more technical savvy and use of the command line.
-          </p>
-          <div
-            class="container-video"
-            aria-label="Youtube video on what is Github"
-            tabindex="0"
-          >
-            <iframe
-              class="responsive-iframe"
-              src="https://www.youtube.com/embed/w3jLJU7DT5E"
-              title="What is GitHub?"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              aria-disabled="true"
-            ></iframe>
-          </div>
-          <p tabindex="0">
-            Additionally, anyone can sign up and host a public code repository
-            for free, which makes GitHub especially popular with open-source
-            projects.
-          </p>
-          <p tabindex="0">
-            As a company, GitHub makes money by selling hosted private code
-            repositories, as well as other business-focused plans that make it
-            easier for organizations to manage team members and security. We
-            utilize Github extensively at Kinsta to manage and develop internal
-            projects.
-          </p>
-        </section>
-      </div>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="./assests/images/favicon-dark.png">
+  <script>
+    $(function () {
+      $("#header").load("./header.html");
+      $("#footer").load("./footer.html");
+    });
+  </script>
+  <title>Home</title>
+</head>
+
+<body>
+  <div id="header"></div>
+  <div class="container">
+    <div class="article-area">
+      <img src="./assests/images/github-banner-text.png" alt="Code Sharing between three computer using Github"
+        class="github-banner" tabindex="0" />
+      <section>
+        <h1 tabindex="0">What is GitHub?</h1>
+        <p tabindex="0">
+          GitHub is a for-profit company that offers a cloud-based Git
+          repository hosting service. Essentially, it makes it a lot easier
+          for individuals and teams to use Git for version control and
+          collaboration.
+        </p>
+        <p tabindex="0">
+          GitHub's interface is user-friendly enough so even novice coders can
+          take advantage of Git. Without GitHub, using Git generally requires
+          a bit more technical savvy and use of the command line.
+        </p>
+        <div class="container-video" aria-label="Youtube video on what is Github" tabindex="0">
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/w3jLJU7DT5E" title="What is GitHub?"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen aria-disabled="true"></iframe>
+        </div>
+        <p tabindex="0">
+          Additionally, anyone can sign up and host a public code repository
+          for free, which makes GitHub especially popular with open-source
+          projects.
+        </p>
+        <p tabindex="0">
+          As a company, GitHub makes money by selling hosted private code
+          repositories, as well as other business-focused plans that make it
+          easier for organizations to manage team members and security.
+        </p>
+      </section>
     </div>
-    <div id="footer"></div>
-  </body>
+  </div>
+  <div id="footer"></div>
+</body>
+
 </html>

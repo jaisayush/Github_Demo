@@ -24,7 +24,7 @@ h2 {
   width: 100%;
 }
 
-p a {
+.links {
   color: black;
   word-break: break-all;
 }
@@ -37,7 +37,8 @@ p {
   position: relative;
   width: 70%;
   overflow: hidden;
-  padding-top: 66.66%; /* 3:2 Aspect Ratio */
+  padding-top: 66.66%;
+  /* 3:2 Aspect Ratio */
 }
 
 .responsive-iframe {

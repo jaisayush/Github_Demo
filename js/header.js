@@ -1,7 +1,7 @@
 document.getElementById("myLinks").style.display = "none";
 var path = window.location.pathname;
 var page = path.split("/").pop();
-if (page == "index.html") {
+if (page == "index.html" || page == "") {
   document.getElementById("home").classList.add("active");
 }
 if (page == "about.html") {

@@ -1,99 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/header.css" />
-    <script src="../js/header.js"></script>
-    <title>Home</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <!-- Desktop Nav -->
-    <nav class="desktop-nav">
-      <a href="">
-        <img
-          src="../assests/images/logo.png"
-          alt="GitHub Logo"
-          class="logo"
-          aria-label="GitHub Logo"
-          tabindex="0"
-        />
-      </a>
+<html lang="en" dir="ltr">
 
-      <ul>
-        <li><a href="../index.html" tabindex="0" id="home">Home</a></li>
-        <li><a href="./about.html" tabindex="0" id="about">About</a></li>
-        <li>
-          <a href="./contact.html" tabindex="0" id="contact">Contact Us</a>
-        </li>
-      </ul>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Search"
-          name="search"
-          aria-label="Enter the text to search"
-          tabindex="0"
-        />
-        <button
-          type="submit"
-          aria-label="Text entered will be searched"
-          tabindex="0"
-        >
-          Submit
-        </button>
-      </form>
-    </nav>
-    <!-- Mobile Nav -->
-    <nav class="mobile-nav">
-      <div class="mobile-nav-selection">
-        <a href=""
-          ><img
-            src="../assests/images/logo.png"
-            alt="GitHub Logo"
-            class="logo"
-            aria-label="GitHub Logo"
-            tabindex="0"
-        /></a>
-        <a
-          href="javascript:void(0);"
-          class="icon"
-          onclick="myFunction()"
-          aria-label="Click To Open Navigation"
-        >
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-      <ul class="navigation-list" id="myLinks">
-        <li><a href="../index.html" tabindex="0" id="home">Home</a></li>
-        <li><a href="./about.html" tabindex="0" id="about">About</a></li>
-        <li>
-          <a href="./contact.html" tabindex="0" id="contact">Contact Us</a>
-        </li>
-        <li>
-          <form action="">
-            <input
-              type="text"
-              placeholder="Search"
-              name="search"
-              aria-label="Enter the text to search"
-              tabindex="0"
-            />
-            <button
-              type="submit"
-              aria-label="Text entered will be searched"
-              tabindex="0"
-            >
-              Submit
-            </button>
-          </form>
-        </li>
-      </ul>
-    </nav>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/header.min.css" />
+  <script src="./js/header.min.js"></script>
+  <title>Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <!-- Desktop Nav -->
+  <nav class="desktop-nav" aria-label="Main Navigation">
+    <a href="./index.html">
+      <img src=" ../assests/images/logo.png" alt="GitHub Logo" class="logo" aria-label="GitHub Logo" />
+    </a>
+
+    <ul>
+      <li><a href="./index.html" id="home">Home</a></li>
+      <li><a href="./about.html" id="about">About</a></li>
+      <li>
+        <a href="./contact.html" id="contact">Contact Us</a>
+      </li>
+    </ul>
+    <form action="https://github.com/search?" target="_blank">
+      <input type="text" placeholder="Search" name="q" aria-label="The text entered will be search on github" required
+        autocomplete="off" />
+      <button type="submit" aria-label="Search Button">
+        Submit
+      </button>
+    </form>
+  </nav>
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav" aria-label="Main Navigation">
+    <div class="mobile-nav-selection">
+      <a href="./index.html"><img src="../assests/images/logo.png" alt="GitHub Logo" class="logo"
+          aria-label="GitHub Logo" /></a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Click To Open Navigation">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <ul class="navigation-list" id="myLinks">
+      <li><a href="./index.html" id="home">Home</a></li>
+      <li><a href="./about.html" id="about">About</a></li>
+      <li>
+        <a href="./contact.html" id="contact">Contact Us</a>
+      </li>
+      <li>
+        <form action="https://github.com/search?" target="_blank">
+          <input type="text" placeholder="Search" name="q" aria-label="The text entered will be search on github"
+            required autocomplete="off" />
+          <button type="submit" aria-label="Search Button">
+            Submit
+          </button>
+        </form>
+      </li>
+    </ul>
+  </nav>
+</body>
+
 </html>

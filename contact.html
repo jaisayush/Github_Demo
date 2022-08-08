@@ -1,93 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us</title>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      $(function () {
-        $("#header").load("header.html");
-        $("#footer").load("footer.html");
-      });
-    </script>
-    <link rel="stylesheet" href="../css/contact.css" />
-  </head>
-  <body>
-    <div id="header"></div>
-    <div class="container">
-      <h1 aria-label="Contact Us" tabindex="0">Contact Us</h1>
-      <section class="contact-us">
-        <div class="get-in-touch">
-          <h2 aria-label="Enter the details to get in touch" tabindex="0">
-            GET IN TOUCH
-          </h2>
-          <form action="" target="">
-            <label aria-label="">Name</label><br />
-            <input
-              class="input"
-              type="text"
-              required
-              name="Name"
-              aria-label="Enter Your Name Below"
-            /><br />
-            <label>Email</label>
-            <br />
-            <input
-              class="input"
-              type="text"
-              required
-              name="Email"
-              aria-label="Enter Your Email Below"
-            /><br />
-            <label>Message</label><br />
-            <textarea
-              class="input"
-              rows="4"
-              cols="50"
-              required
-              name="Message"
-              aria-label="Enter Your Message Below"
-            ></textarea
-            ><br />
-            <button type="submit">Send</button><br />
-          </form>
-        </div>
-        <div class="swing-by">
-          <h2>Swing By</h2>
-          <div class="container-iframe">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15555.295536159598!2d77.5003897!3d12.9190383!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xad89aabd2939698c!2sMindtree%20Limited!5e0!3m2!1sen!2sin!4v1659929369327!5m2!1sen!2sin"
-              class="responsive-iframe"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              aria-label="Google Map"
-            ></iframe>
-          </div>
+<html lang="en" dir="ltr">
 
-          <p
-            aria-label="Global village Tech Park, Mysore Rd, RV Vidyaniketan, RVCE"
-            tabindex="0"
-          >
-            Global village Tech Park, Mysore Rd, RV Vidyaniketan, RVCE,
-          </p>
-          <p aria-label="Bengaluru, Karnataka 560059" tabindex="0">
-            Bengaluru, Karnataka 560059
-          </p>
-          <p><a href="tel:+91 9741677737">+91 9741677737</a></p>
-          <p>
-            <a href="mailto:ayush.jaiswal2@mindtree.com"
-              >ayush.jaiswal2@mindtree.com</a
-            >
-          </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+  <link rel="stylesheet" href="./css/contact.min.css" />
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="./assests/images/favicon-dark.png">
+</head>
+
+<body>
+  <div id="header"></div>
+  <div class="container">
+    <h1 aria-label="Contact Us" tabindex="0">Contact Us</h1>
+    <section class="contact-us">
+      <div class="get-in-touch">
+        <h2 aria-label="Enter the details to get in touch" tabindex="0">
+          GET IN TOUCH
+        </h2>
+        <form action="" target="">
+          <label aria-label="">Name</label><br />
+          <input class="input" type="text" required name="Name" aria-label="Enter Your Name Below"
+            autocomplete="off" /><br />
+          <label>Email</label>
+          <br />
+          <input class="input" type="email" required name="Email" aria-label="Enter Your Email Below"
+            autocomplete="off" /><br />
+          <label>Message</label><br />
+          <textarea class="input" rows="4" cols="50" required name="Message" autocomplete="off"
+            aria-label="Enter Your Message Below"></textarea><br />
+          <button type="submit">Send</button><br />
+        </form>
+      </div>
+      <div class="swing-by">
+        <h2 tabindex="0">Swing By</h2>
+        <div class="container-iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15555.295536159598!2d77.5003897!3d12.9190383!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xad89aabd2939698c!2sMindtree%20Limited!5e0!3m2!1sen!2sin!4v1659929369327!5m2!1sen!2sin"
+            class="responsive-iframe" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            aria-label="Google Map"></iframe>
         </div>
-      </section>
-    </div>
-    <div id="footer"></div>
-  </body>
+
+        <p aria-label="Global village Tech Park, Mysore Rd, RV Vidyaniketan, RVCE" tabindex="0">
+          Global village Tech Park, Mysore Rd, RV Vidyaniketan, RVCE,
+        </p>
+        <p aria-label="Bengaluru, Karnataka 560059" tabindex="0">
+          Bengaluru, Karnataka 560059
+        </p>
+        <p><a class="links" href="tel:+91 9741677737">+91 9741677737</a></p>
+        <p>
+          <a class="links" href="mailto:ayush.jaiswal2@mindtree.com">ayush.jaiswal2@mindtree.com</a>
+        </p>
+      </div>
+    </section>
+  </div>
+  <div id="footer"></div>
+</body>
+
 </html>

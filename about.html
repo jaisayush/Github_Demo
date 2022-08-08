@@ -1,165 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us</title>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      $(function () {
-        $("#header").load("./header.html");
-        $("#footer").load("./footer.html");
-      });
-    </script>
-    <link rel="stylesheet" href="../css/about.css" />
-  </head>
-  <body>
-    <div id="header"></div>
-    <div class="container">
-      <div class="article-area">
-        <section>
-          <h1 tabindex="0">About Us</h1>
-          <p tabindex="0">
-            We are a complete developer platform to build, scale, and deliver
-            secure software.
-          </p>
-        </section>
-        <section>
-          <p tabindex="0">In our platform we have:</p>
-          <div class="stats">
-            <div
-              class="stats-details"
-              aria-label="We have more than eighty-three million developers on our platform."
-              tabindex="0"
-            >
-              <p>83+ million</p>
-              <p>Developers</p>
-            </div>
-            <div
-              class="stats-details"
-              aria-label="Over four million organizations use our platform and services."
-              tabindex="0"
-            >
-              <p>4+ million</p>
-              <p>Organizations</p>
-            </div>
-            <div
-              class="stats-details"
-              aria-label="Over 200 million repositories are stored on our platform."
-              tabindex="0"
-            >
-              <p>200+ million</p>
-              <p>Repositories</p>
-            </div>
-            <div
-              class="stats-details"
-              aria-label="Over 90 percent of Fortune 100 companies use our platform and services."
-              tabindex="0"
-            >
-              <p>90%</p>
-              <p>Fortune 100</p>
-            </div>
-          </div>
-        </section>
-        <section>
-          <h2>Benefits of using GitHub?</h2>
-          <audio controls>
-            <source
-              src="./assests/audios/githubBenifits.mp3"
-              type="audio/ogg"
-            />
-            <p>
-              Your browser doesn't support HTML5 audio. You can read the content
-              below
-            </p>
-          </audio>
 
-          <ol>
-            <li>
-              <p class="heading">
-                It makes it easy to contribute to your open source projects
-              </p>
-              <p>
-                To be honest, nearly every open-source project uses GitHub to
-                manage their project. Using GitHub is free if your project is
-                open source and includes a wiki and issue tracker that makes it
-                easy to include more in-depth documentation and get feedback
-                about your project. If you want to contribute, you just fork a
-                project, make your changes and then send them a pull request
-                using GitHub web interface.
-              </p>
-            </li>
-            <li>
-              <p class="heading">Documentation</p>
-              <p>
-                By using GitHub, you make it easier to get excellent
-                documentation. Their help section and guides have articles for
-                nearly any topic related to git that you can think of.
-              </p>
-            </li>
-            <li>
-              <p class="heading">Showcase your work</p>
-              <p>
-                Are you a developer and wishes to attract recruiters? GitHub is
-                the best tool you can rely on for this. Today, when searching
-                for new recruits for their project, most companies look into the
-                GitHub profiles. If your profile is available, you will have a
-                higher chance of being recruited even if you are not from a
-                great university or college.
-              </p>
-            </li>
-            <li>
-              <p class="heading">Markdown</p>
-              <p>
-                Markdown allows you to use a simple text editor to write
-                formatted documents. GitHub has revolutionized writing by
-                channeling everything through Markdown: from the issue tracker,
-                user comments, everything. With so many other programming
-                languages to learn for setting up projects, it’s really a big
-                benefit to have your content inputted in a format without having
-                to learn yet another system.
-              </p>
-            </li>
-            <li>
-              <p class="heading">GitHub is a repository</p>
-              <p>
-                This was already mentioned before, but it’s important to note,
-                GitHub is a repository. What this means that it allows your work
-                to get out there in front of the public. Moreover, GitHub is one
-                of the largest coding communities around right now, so it’s wide
-                exposure for your project.
-              </p>
-            </li>
-            <li>
-              <p class="heading">Track changes in your code across versions</p>
-              <p>
-                When multiple people collaborate on a project, it’s hard to keep
-                track revisions—who changed what, when, and where those files
-                are stored. GitHub takes care of this problem by keeping track
-                of all the changes that have been pushed to the repository. Much
-                like using Microsoft Word or Google Drive, you can have a
-                version history of your code so that previous versions are not
-                lost with every iteration.
-              </p>
-            </li>
-            <li>
-              <p class="heading">Integration options</p>
-              <p>
-                GitHub can integrate with common platforms such as Amazon and
-                Google Cloud, services such as Code Climate to track your
-                feedback, and can highlight syntax in over 200 different
-                programming languages.
-              </p>
-            </li>
-          </ol>
-        </section>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $("#header").load("./header.html");
+      $("#footer").load("./footer.html");
+    });
+  </script>
+  <link rel="stylesheet" href="./css/about.min.css" />
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="./assests/images/favicon-dark.png">
+</head>
+
+<body>
+  <div id="header"></div>
+  <div class="container">
+    <div class="article-area">
+      <section>
+        <h1 tabindex="0">About Us</h1>
+        <p tabindex="0">
+          We are a complete developer platform to build, scale, and deliver
+          secure software.
+        </p>
+      </section>
+      <section>
+        <p tabindex="0">In our platform we have:</p>
+        <div class="stats">
+          <div class="stats-details" aria-label="We have more than eighty-three million developers on our platform."
+            tabindex="0">
+            <p>83+ million</p>
+            <p>Developers</p>
+          </div>
+          <div class="stats-details" aria-label="Over four million organizations use our platform and services."
+            tabindex="0">
+            <p>4+ million</p>
+            <p>Organizations</p>
+          </div>
+          <div class="stats-details" aria-label="Over 200 million repositories are stored on our platform."
+            tabindex="0">
+            <p>200+ million</p>
+            <p>Repositories</p>
+          </div>
+          <div class="stats-details"
+            aria-label="Over 90 percent of Fortune 100 companies use our platform and services." tabindex="0">
+            <p>90%</p>
+            <p>Fortune 100</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 tabindex="0">Benefits of using GitHub?</h2>
+        <audio controls>
+          <source src="./assests/audios/githubBenifits.mp3" type="audio/ogg" />
+          <p>
+            Your browser doesn't support HTML5 audio. You can read the content
+            below
+          </p>
+        </audio>
+        <h2>Transcript:</h2>
+        <ol>
+          <li>
+            <p class="heading">
+              It makes it easy to contribute to your open source projects
+            </p>
+            <p>
+              To be honest, nearly every open-source project uses GitHub to
+              manage their project. Using GitHub is free if your project is
+              open source and includes a wiki and issue tracker that makes it
+              easy to include more in-depth documentation and get feedback
+              about your project. If you want to contribute, you just fork a
+              project, make your changes and then send them a pull request
+              using GitHub web interface.
+            </p>
+          </li>
+          <li>
+            <p class="heading">Documentation</p>
+            <p>
+              By using GitHub, you make it easier to get excellent
+              documentation. Their help section and guides have articles for
+              nearly any topic related to git that you can think of.
+            </p>
+          </li>
+          <li>
+            <p class="heading">Showcase your work</p>
+            <p>
+              Are you a developer and wishes to attract recruiters? GitHub is
+              the best tool you can rely on for this. Today, when searching
+              for new recruits for their project, most companies look into the
+              GitHub profiles. If your profile is available, you will have a
+              higher chance of being recruited even if you are not from a
+              great university or college.
+            </p>
+          </li>
+          <li>
+            <p class="heading">Markdown</p>
+            <p>
+              Markdown allows you to use a simple text editor to write
+              formatted documents. GitHub has revolutionized writing by
+              channeling everything through Markdown: from the issue tracker,
+              user comments, everything. With so many other programming
+              languages to learn for setting up projects, it’s really a big
+              benefit to have your content inputted in a format without having
+              to learn yet another system.
+            </p>
+          </li>
+          <li>
+            <p class="heading">GitHub is a repository</p>
+            <p>
+              This was already mentioned before, but it’s important to note,
+              GitHub is a repository. What this means that it allows your work
+              to get out there in front of the public. Moreover, GitHub is one
+              of the largest coding communities around right now, so it’s wide
+              exposure for your project.
+            </p>
+          </li>
+          <li>
+            <p class="heading">Track changes in your code across versions</p>
+            <p>
+              When multiple people collaborate on a project, it’s hard to keep
+              track revisions—who changed what, when, and where those files
+              are stored. GitHub takes care of this problem by keeping track
+              of all the changes that have been pushed to the repository. Much
+              like using Microsoft Word or Google Drive, you can have a
+              version history of your code so that previous versions are not
+              lost with every iteration.
+            </p>
+          </li>
+          <li>
+            <p class="heading">Integration options</p>
+            <p>
+              GitHub can integrate with common platforms such as Amazon and
+              Google Cloud, services such as Code Climate to track your
+              feedback, and can highlight syntax in over 200 different
+              programming languages.
+            </p>
+          </li>
+        </ol>
+      </section>
     </div>
-    <div id="footer"></div>
-  </body>
+  </div>
+  <div id="footer"></div>
+</body>
+
 </html>

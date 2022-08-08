@@ -16,6 +16,10 @@ footer {
   padding: 0.5rem;
 }
 
+.socials a {
+  text-decoration: none;
+}
+
 i:hover {
   color: red;
 }

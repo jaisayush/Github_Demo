@@ -28,7 +28,8 @@ p {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio */
 }
 
 .responsive-iframe {
@@ -41,6 +42,7 @@ p {
   height: 100%;
   border: none;
 }
+
 @media only screen and (max-width: 767px) {
   .article-area {
     width: 80%;
