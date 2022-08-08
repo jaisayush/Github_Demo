@@ -2,13 +2,16 @@ document.getElementById("myLinks").style.display = "none";
 var path = window.location.pathname;
 var page = path.split("/").pop();
 if (page == "index.html" || page == "") {
-  document.getElementById("home").classList.add("active");
+  document.getElementById("des-home").classList.add("active");
+  document.getElementById("mob-home").classList.add("active");
 }
 if (page == "about.html") {
-  document.getElementById("about").classList.add("active");
+  document.getElementById("des-about").classList.add("active");
+  document.getElementById("mob-about").classList.add("active");
 }
 if (page == "contact.html") {
-  document.getElementById("contact").classList.add("active");
+  document.getElementById("des-contact").classList.add("active");
+  document.getElementById("mob-contact").classList.add("active");
 }
 function myFunction() {
   var x = document.getElementById("myLinks");
